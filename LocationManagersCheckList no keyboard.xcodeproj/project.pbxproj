@@ -7,21 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8CB799D31F23C1EE00EF764E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB799D21F23C1EE00EF764E /* AppDelegate.swift */; };
 		8CB799D51F23C1EE00EF764E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB799D41F23C1EE00EF764E /* ViewController.swift */; };
 		8CB799D81F23C1EE00EF764E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB799D61F23C1EE00EF764E /* Main.storyboard */; };
 		8CB799DA1F23C1EE00EF764E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB799D91F23C1EE00EF764E /* Assets.xcassets */; };
 		8CB799DD1F23C1EE00EF764E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB799DB1F23C1EE00EF764E /* LaunchScreen.storyboard */; };
+		8CB799FE1F23D99D00EF764E /* VendorOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB799FD1F23D99D00EF764E /* VendorOrdersViewController.swift */; };
+		F951BB444FB40E30697BAB25 /* Pods_LocationManagersCheckList_no_keyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8252D5922EBFDE877B6AF87 /* Pods_LocationManagersCheckList_no_keyboard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8CB799CF1F23C1EE00EF764E /* LocationManagersCheckList no keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LocationManagersCheckList no keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CB799D21F23C1EE00EF764E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CB799D41F23C1EE00EF764E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8CB799D71F23C1EE00EF764E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CB799D91F23C1EE00EF764E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CB799DC1F23C1EE00EF764E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CB799DE1F23C1EF00EF764E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB799FD1F23D99D00EF764E /* VendorOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorOrdersViewController.swift; sourceTree = "<group>"; };
+		8CB799FF1F23E8C000EF764E /* AddCheckListItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCheckListItemViewController.swift; sourceTree = "<group>"; };
+		8CB79A001F23E8C000EF764E /* AddProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProjectViewController.swift; sourceTree = "<group>"; };
+		8CB79A011F23E8C000EF764E /* AddTeamMembersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTeamMembersTableViewController.swift; sourceTree = "<group>"; };
+		8CB79A021F23E8C900EF764E /* CheckListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListTableViewCell.swift; sourceTree = "<group>"; };
+		8CB79A031F23E8C900EF764E /* CheckListHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListHelper.swift; sourceTree = "<group>"; };
+		8CB79A041F23E8C900EF764E /* CheckListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListViewController.swift; sourceTree = "<group>"; };
+		8CB79A051F23E8D900EF764E /* ProjectLocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectLocationsViewController.swift; sourceTree = "<group>"; };
+		8CB79A061F23E8D900EF764E /* ProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
+		8CB79A071F23E8D900EF764E /* LocationInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInformationViewController.swift; sourceTree = "<group>"; };
+		8CB79A081F23EE6500EF764E /* HoltwoodOneSC2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HoltwoodOneSC2.ttf; sourceTree = "<group>"; };
+		8CB79A091F23EE6A00EF764E /* OFL2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OFL2.txt; sourceTree = "<group>"; };
+		C8252D5922EBFDE877B6AF87 /* Pods_LocationManagersCheckList_no_keyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationManagersCheckList_no_keyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78E6B20477E4C0EF94CFB31 /* Pods-LocationManagersCheckList no keyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationManagersCheckList no keyboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocationManagersCheckList no keyboard/Pods-LocationManagersCheckList no keyboard.release.xcconfig"; sourceTree = "<group>"; };
+		E9B84D2E7732BDA641744346 /* Pods-LocationManagersCheckList no keyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationManagersCheckList no keyboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocationManagersCheckList no keyboard/Pods-LocationManagersCheckList no keyboard.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F951BB444FB40E30697BAB25 /* Pods_LocationManagersCheckList_no_keyboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,7 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				8CB799D11F23C1EE00EF764E /* LocationManagersCheckList no keyboard */,
+				8CB799F81F23C6A500EF764E /* Resources */,
 				8CB799D01F23C1EE00EF764E /* Products */,
+				A9DD82B56DB6E4D073A4A3F8 /* Pods */,
+				E47FC4EC21F17DA64BCB2DEB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +73,49 @@
 		8CB799D11F23C1EE00EF764E /* LocationManagersCheckList no keyboard */ = {
 			isa = PBXGroup;
 			children = (
-				8CB799D21F23C1EE00EF764E /* AppDelegate.swift */,
+				8CB79A031F23E8C900EF764E /* CheckListHelper.swift */,
 				8CB799D41F23C1EE00EF764E /* ViewController.swift */,
+				8CB79A061F23E8D900EF764E /* ProjectViewController.swift */,
+				8CB79A001F23E8C000EF764E /* AddProjectViewController.swift */,
+				8CB79A011F23E8C000EF764E /* AddTeamMembersTableViewController.swift */,
+				8CB79A051F23E8D900EF764E /* ProjectLocationsViewController.swift */,
+				8CB79A041F23E8C900EF764E /* CheckListViewController.swift */,
+				8CB799FF1F23E8C000EF764E /* AddCheckListItemViewController.swift */,
+				8CB79A071F23E8D900EF764E /* LocationInformationViewController.swift */,
+				8CB79A021F23E8C900EF764E /* CheckListTableViewCell.swift */,
+				8CB799FD1F23D99D00EF764E /* VendorOrdersViewController.swift */,
 				8CB799D61F23C1EE00EF764E /* Main.storyboard */,
-				8CB799D91F23C1EE00EF764E /* Assets.xcassets */,
 				8CB799DB1F23C1EE00EF764E /* LaunchScreen.storyboard */,
 				8CB799DE1F23C1EF00EF764E /* Info.plist */,
 			);
 			path = "LocationManagersCheckList no keyboard";
+			sourceTree = "<group>";
+		};
+		8CB799F81F23C6A500EF764E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8CB79A081F23EE6500EF764E /* HoltwoodOneSC2.ttf */,
+				8CB79A091F23EE6A00EF764E /* OFL2.txt */,
+				8CB799D91F23C1EE00EF764E /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A9DD82B56DB6E4D073A4A3F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9B84D2E7732BDA641744346 /* Pods-LocationManagersCheckList no keyboard.debug.xcconfig */,
+				D78E6B20477E4C0EF94CFB31 /* Pods-LocationManagersCheckList no keyboard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E47FC4EC21F17DA64BCB2DEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8252D5922EBFDE877B6AF87 /* Pods_LocationManagersCheckList_no_keyboard.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +125,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CB799E11F23C1EF00EF764E /* Build configuration list for PBXNativeTarget "LocationManagersCheckList no keyboard" */;
 			buildPhases = (
+				F40DAAC8A562F0DA1ED07120 /* [CP] Check Pods Manifest.lock */,
 				8CB799CB1F23C1EE00EF764E /* Sources */,
 				8CB799CC1F23C1EE00EF764E /* Frameworks */,
 				8CB799CD1F23C1EE00EF764E /* Resources */,
+				1725553307807D2FBB6844EE /* [CP] Embed Pods Frameworks */,
+				49FADDBC2E57611F9394FFC9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +187,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1725553307807D2FBB6844EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationManagersCheckList no keyboard/Pods-LocationManagersCheckList no keyboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49FADDBC2E57611F9394FFC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationManagersCheckList no keyboard/Pods-LocationManagersCheckList no keyboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F40DAAC8A562F0DA1ED07120 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8CB799CB1F23C1EE00EF764E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8CB799D51F23C1EE00EF764E /* ViewController.swift in Sources */,
-				8CB799D31F23C1EE00EF764E /* AppDelegate.swift in Sources */,
+				8CB799FE1F23D99D00EF764E /* VendorOrdersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +372,7 @@
 		};
 		8CB799E21F23C1EF00EF764E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9B84D2E7732BDA641744346 /* Pods-LocationManagersCheckList no keyboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V63MCVZ6NB;
@@ -281,6 +387,7 @@
 		};
 		8CB799E31F23C1EF00EF764E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D78E6B20477E4C0EF94CFB31 /* Pods-LocationManagersCheckList no keyboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V63MCVZ6NB;
@@ -312,6 +419,7 @@
 				8CB799E31F23C1EF00EF764E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
